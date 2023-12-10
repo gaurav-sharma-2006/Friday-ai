@@ -163,4 +163,7 @@ if __name__ == "__main__":
                 speak("SMILE")
                 pyautogui.press("enter")
         
-        
+        #opening the visual code
+        elif 'open code' in query:
+            codePath = "C:\\Users\\Gaurav Sharma\\AppData\\Local\\Programs\\Microsoft VS Code"
+            os.startfile(codePath)
