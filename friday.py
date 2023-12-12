@@ -1,4 +1,3 @@
-import cmd
 from platform import python_branch
 import pyttsx3 #pip install pyttsx3
 import speech_recognition as sr #pip install speechRecognition
